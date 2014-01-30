@@ -1,0 +1,14 @@
+estd.h - by Chris French (unclechromedome@gmail.com)
+
+Use simply by
+
+#include "estd.h"
+
+The files here constitute my implementation of the constraints checks mentioned on pg. 716
+of The C++ Programming Language, Fourth Edition.
+
+I borrowed much code from Andrew Sutton's Origin library and repackaged it.
+Hence, this code carries with it the MIT license (http://opensource.org/licenses/mit-license.php).
+
+My code contains some minor additions and some bug fixes. It is organized differently than Origin,
+but maintains the same naming conventions.
