@@ -505,6 +505,12 @@ template<typename T>
 template<typename T>
   using Remove_all_extents = typename std::remove_all_extents<T>::type;
 
+template<typename T>
+  using Remove_pointer = typename std::remove_pointer<T>::type;
+
+template<typename T>
+  using Add_pointer = typename std::add_pointer<T>::type;
+
 // TODO: Alignments.
 
 template<bool B, typename T = void>
